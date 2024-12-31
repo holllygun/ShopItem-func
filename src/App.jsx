@@ -18,7 +18,7 @@ function App() {
         <div className='highlight-overlay'></div>
       </div>
       <div className="window">
-        <ShopItem info={item} />
+        <ShopItem info ={item} />
       </div>
     </div>
   )

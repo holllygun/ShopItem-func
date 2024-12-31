@@ -1,8 +1,7 @@
 import React from 'react'
 import './ShopItem.css'
 
-export const ShopItem = (props) => {
-  const {brand, title, description, descriptionFull, price, currency} = props.info
+export const ShopItem = ({info: {brand, title, description, descriptionFull, price, currency}}) => {
   return <div className="main-content">
       <h2>{brand}</h2>
       <h1>{title}</h1>
